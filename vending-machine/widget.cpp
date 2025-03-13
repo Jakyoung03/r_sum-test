@@ -38,7 +38,6 @@ void Widget::purchaseItem(int cost)
         increaseMoney(-cost);
     }
     else {
-        QMessageBox::warning(this, "Insufficient balance", "Your balance is insufficient!");
     }
 }
 
